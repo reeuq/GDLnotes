@@ -3,7 +3,7 @@ from __future__ import print_function
 
 import tensorflow as tf
 
-from convnet.conv_mnist import maxpool2d
+from src.convnet.conv_mnist import maxpool2d
 from util.board import variable_summary
 from util.mnist import format_mnist
 
