@@ -1,8 +1,8 @@
 import numpy as np
 import tensorflow as tf
 
-from neural.full_connect import accuracy
-from not_mnist.img_pickle import load_pickle
+from src.neural.full_connect import accuracy
+from src.not_mnist.img_pickle import load_pickle
 
 
 def reformat(dataset, labels, image_size, num_labels, num_channels):
